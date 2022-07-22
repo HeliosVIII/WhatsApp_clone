@@ -36,6 +36,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.4rem;
+  padding: 0 .4rem;
 }
 .header__navbar-img {
   width: 0.8rem;
