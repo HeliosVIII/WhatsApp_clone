@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 1rem;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  background-color: #003431;
+  font-family: "Josefin Sans", sans-serif;
+  color: #a0afaa;
+}
+.header__navbar {
+  background-color: rgba(15, 15, 15, 0.5647058824);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.4rem;
+}
+.header__navbar-img {
+  width: 0.6rem;
+}
+.header__navbar-time {
+  font-size: 0.6rem;
+}
+.header .container {
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 1rem;
+}
+.header__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__name {
+  font-size: 2rem;
+}
+.header__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.header__actions .btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.header__img {
+  width: 2rem;
+  background: none;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+.nav li {
+  font-size: 1.4rem;
+}
+.nav__btn {
+  background: transparent;
+  border: none;
+  color: #a0afaa;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.nav__btn:hover {
+  -webkit-filter: brightness(2);
+          filter: brightness(2);
+}
+.nav img {
+  width: 2rem;
+  color: #a0afaa;
+}
+.nav img:hover {
+  -webkit-filter: brightness(2);
+          filter: brightness(2);
+}
