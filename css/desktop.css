@@ -114,6 +114,15 @@ img {
           filter: brightness(2);
 }
 
+.footer {
+  background: #003431;
+  color: #a0afaa;
+}
+.footer__signature {
+  text-align: center;
+}
+
+
 main {
   background: #035754;
   font-family: "Open-Sans", sans-serif;
